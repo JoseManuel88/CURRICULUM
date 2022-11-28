@@ -1,6 +1,15 @@
 
-.more2{
-    margin-right: 580px;
-    background-color: coral;
+.more_2{
+    background-color: powderblue;
     border-right: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 15px;
 }
+.more_3{
+    margin-top: 20px;
+}
+.volunter{
+    margin-top: 20px;
+}
+

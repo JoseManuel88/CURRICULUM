@@ -25,25 +25,25 @@ export const CV = {
     },
     education: [
       {
-        name: "Master in physics",
-        date: "1985",
-        where: "MIT",
+        name: "Primary Education",
+        date: "1992-2000",
+        where: "Salesians School Mª Auxiliadora (Ecija)"
       },
       {
-        name: "Aeronautical Engineering",
-        date: "1995",
-        where: "ATI Vaughn College",
+        name: "Education Secundary Obligatory",
+        date: "2000-2005",
+        where: "Salesians School Mª Auxiliadora (Ecija)"
       },
-      // {
-      //   name: "Weapons Engineer",
-      //   date: "1998",
-      //   where: "Firearm Collegue, Queens",
-      // },
+      {
+        name: "Jardineria FP",
+        date: "2013",
+        where: "Fernan Nuñez"
+      }
     ],
     experience: [
       {
-        name: "Consultant",
-        date: "01/01/2013 – Nowadays",
+        name: "Trabajo como peon tapicero",
+        date: "2016-2017",
         where: "S.H.I.E.L.D",
         description:
           "It builds the helicarriers used by S.H.I.E.L.D. It produces the Quinjets used by the Avengers.",
@@ -58,18 +58,18 @@ export const CV = {
     ],
     languages: {
       language: "English",
-      wrlevel: "Native",
-      splevel: "Native",
+      wrlevel: "Nivel Basic",
+      // splevel: "Basic",
     },
     habilities: [
       "Robotics",
       "Robot Programming",
       "Physics",
-      "Weaponery",
-      "Engineer",
-      "Money",
-      "Dating",
-      "Saving the world",
+      // "Weaponery",
+      // "Engineer",
+      // "Money",
+      // "Dating",
+      // "Saving the world",
     ],
     volunteer: [
       {

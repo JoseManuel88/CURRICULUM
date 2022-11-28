@@ -4,9 +4,9 @@ export const Experience = ({experience}) => {
     console.log(experience);
   return (
   <div>
-    <div>
+    <div className='expe_2'>
     <div className='expe'>Experience</div>
-  </div><div>
+  <div>
  <p>{experience[0].name}</p>
  <p>{experience[0].date}</p>
  <p>{experience[0].where}</p>
@@ -17,6 +17,8 @@ export const Experience = ({experience}) => {
  <p>{experience[1].date}</p>
  <p>{experience[1].where}</p>
  <p>{experience[1].description}</p>
+ </div>
+
 
  </div>
  

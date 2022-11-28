@@ -3,12 +3,14 @@ import "./More.css";
 export const More = ({languages, habilities, volunteer}) => {
   return (
   <div>
-    <div className='more2'>
-    <div>Languages</div>
+    <div className='more_2'>
+      <div className='more_3'>
+      <div>Languages</div>
     <p>{languages.language}</p>
     <p>{languages.wrlevel}</p>
     <p>{languages.splevel}</p>
-    <div>
+      </div>
+    <div className='more_3'>
         <div>Habilities</div>
         <p>{habilities[0]}</p>
         <p>{habilities[1]}</p>
@@ -22,7 +24,7 @@ export const More = ({languages, habilities, volunteer}) => {
    
     </div>
     <div>
-        <div>Volunteer</div>
+        <div className='volunter'>Volunteer</div>
         <div>
         <p>{volunteer[0].name}</p>
       <p>{volunteer[0].where}</p>
