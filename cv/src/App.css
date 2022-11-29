@@ -15,8 +15,8 @@
 
 .button{
   margin-right: 115px;
-    margin-bottom: 50px;
-    margin-top: 35px;
+  margin-bottom: 30px;
+  margin-top: 30px;
     width: 75px;
     background-color: violet;
 }
@@ -28,5 +28,5 @@
 }
 .more{
   background-color:lightyellow;
-  display: flex;
+  
 }

@@ -15,26 +15,22 @@ export const More = ({languages, habilities, volunteer}) => {
         <p>{habilities[0]}</p>
         <p>{habilities[1]}</p>
         <p>{habilities[2]}</p>
-        <p>{habilities[3]}</p>
-        <p>{habilities[4]}</p>
-        <p>{habilities[5]}</p>
-        <p>{habilities[6]}</p>
-        <p>{habilities[7]}</p>
+        
     </div>
    
     </div>
     <div>
-        <div className='volunter'>Volunteer</div>
+        <div className='volunter'>More About Me..</div>
         <div>
         <p>{volunteer[0].name}</p>
       <p>{volunteer[0].where}</p>
       <p>{volunteer[0].description}</p>
         </div>
-        {/* <div>
+        <div>
         <p>{volunteer[1].name}</p>
       <p>{volunteer[1].where}</p>
       <p>{volunteer[1].description}</p>
-        </div> */}
+        </div>
         
       
     </div>

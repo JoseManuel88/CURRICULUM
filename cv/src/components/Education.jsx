@@ -16,13 +16,13 @@ export const Education = ({education}) => {
         <p>{education[1].date}</p>
         <p>{education[1].where}</p>
         </div>
-        </div>
-        {/* <div>
+        
+        <div>
         <p>{education[2].name}</p>
         <p>{education[2].date}</p>
         <p>{education[2].where}</p>
-        </div> */}
-       
+        </div>
+        </div>
        
        </div>
   )

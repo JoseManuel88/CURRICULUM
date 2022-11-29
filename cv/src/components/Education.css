@@ -3,7 +3,9 @@
     font-size: 35px;
     font-family: sans-serif;
     margin-top: 37px;
+    justify-content: space-between;
 }
 .study_2{
     background-color: bisque;
+    padding-bottom: 10px;
 }
