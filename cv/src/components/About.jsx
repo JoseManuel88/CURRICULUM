@@ -4,7 +4,7 @@ export const About = ({aboutMe}) => {
     console.log(aboutMe);
   return (
     <div className="about">
-      <div>
+      <div className='about-card'>
         <div className='aboutList'>About me</div>
         <p>{aboutMe[0].info}</p>
       <p>{aboutMe[1].info}</p>
